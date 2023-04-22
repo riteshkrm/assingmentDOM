@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section {
+    width: 25rem;
+    height: 10rem;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    gap: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+
+}
+
+#decrementBtn,
+#incrementBtn {
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#resetbtn {
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+span {
+
+    font-size: 25px;
+    padding: 0.26rem 0.7rem;
+    border: 1px solid black;
+}
